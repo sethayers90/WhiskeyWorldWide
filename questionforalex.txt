@@ -1,0 +1,17 @@
+1.How do I connect the database and did I start it right?
+2.Do you know of anyway to fix the quiz page ?
+3.How does Maven work as far as file exploer?
+4.Do I make to seperate databses one for users and one for the whiskey results?
+5.When it come to passowords will be making this secure like I can't see the passwords on the database or is 
+	that outside of the scope of all this?
+6.Is there anything that I can put in this that would wow the companies at the demo day, i know where i am but i 
+	also know im going to push myself really hard
+7.like i've said before I really struggled with understaning kenn, so I missed do login in stuff, like I'm 
+	assuimg it's using a query and matching it to the database but I have no idea how to do that
+8.i want to use an api somewhere in this just to show that i can do that, do you have any ideas of api's i could 
+	use?
+9.Will i need to actuall deploy this or will i by doing it from local host?
+10.how do you deploy a site.
+Sorry for all the questions I really had a rough time understanding kenn and at the time things were really bad here
+I really want to put my best foot forward and make the best life for my kids and I . thank you for all the help
+im sorry that I'm a pain in the ass I tried to have a decent amount of question so I wasn't wasting your or my time

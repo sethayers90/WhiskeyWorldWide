@@ -1,0 +1,77 @@
+			<div class="card" style="width: 18rem;dispay:flex;content-justify:center;">
+				<div class="card-body">
+					<h5 class="card-title">Woody or Earthy Food</h5>
+					<img
+						src="static/img/spare-ribs-5340942_640.jpg">
+					<form action="processForm" method="GET">
+						<br>
+						Can't get enough<input type="radio" name="bbq" value="5">
+						<br>
+						Pretty Good<input type="radio" name="bbq" value="4">
+						<br>
+						Don't Care<input type="radio" name="bbq" value="3" >
+						<br>
+						Not my Favorite<input type="radio" name="bbq" value="2" >
+						<br>
+						Can't stand it<input type="radio" name="bbq" value="1" >
+						<br>
+						<button class="submit">Submit</button>
+						<!-- When the user clicks this I want a new card to come in, I'm not sure how to implement this -->
+					</form>
+				</div>
+			</div>
+			<div class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h5 class="card-title">Sweets</h5>
+					<img
+						src="static/img/ice-cream-2104979_640.jpg">
+					<form action="processForm" method="GET">
+						<br> Cant' get enough<input type="radio" name="sweet"value="5"> 
+						<br> Pretty Good<input type="radio" name="sweet" value="4">
+						<br> Don't Care<input type="radio" name="sweet" value="3" /> 
+						<br> Not my Favorite<input type="radio" name="sweet" value="2" /> 
+						<br> Can't stand it<input type="radio" name="sweet" value="1" />
+						<br>
+						<button class="submit">Submit</button>
+						<!-- When the user clicks this I want a new card to come in, I'm not sure how to implement this -->
+						</form>
+				</div>
+			</div>
+			<div class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h5 class="card-title">Spicy Food</h5>
+					<img
+						src="static/img/cayenne-peppers-2779828_640.jpg">
+					<form action="processForm" method="GET">
+						<br> Cant' get enough<input type="radio" name="spicy" value="5"> 
+						<br> Pretty Good<input type="radio"	name="spicy" value="4"> 
+						<br> Don't Care<input type="radio" name="spicy" value="3"> 
+						<br> Not my Favorite<input type="radio" name="spicy" value="2"> 
+						<br>
+						Can't stand it<input type="radio" name="spicy" value="1">
+						<br>
+						<button class="submit">Submit</button>
+						<!-- When the user clicks this I want a new card to come in, I'm not sure how to implement this -->
+					</form>
+
+				</div>
+			</div>
+			<div class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h5 class="card-title">Fruits</h5>
+					<img
+						src="static/img/fruit-2305192_640.jpg">
+					<form action="processForm" method="GET">
+						<br> Cant' get enough<input type="radio" name="fruit" value="5"> 
+						<br> Pretty Good<input type="radio"	name="fruit" value="4">
+						 <br> Don't Care<input type="radio" name="fruit" value="3">
+						 <br> Not myFavorite<input type="radio" name="fruit" value="2"> 
+						<br> 
+						Can't stand it<input type="radio" name="fruit" value="1">
+						<br>
+						<button class="submit">Submit</button>
+						<!-- When the user clicks this I want a new card to come in, I'm not sure how to implement this -->
+					</form>
+
+				</div>
+			</div>
