@@ -26,37 +26,13 @@ public class Products {
 	private String manufacturer;   
     private String name;
     private double price;
-	private int bbqness;
-	private int fruityness;
-	private int spicyness;
-	private int sweetness;
-    private String description;
+	private int bbq;
+	private int fruity;
+	private int spicy;
+	private int sweet;
     private String url;
 	
-	public int getBbqness() {
-		return bbqness;
-	}
-	public void setBbqness(int bbqness) {
-		this.bbqness = bbqness;
-	}
-	public int getFruityness() {
-		return fruityness;
-	}
-	public void setFruityness(int fruityness) {
-		this.fruityness = fruityness;
-	}
-	public int getSpicyness() {
-		return spicyness;
-	}
-	public void setSpicyness(int spicyness) {
-		this.spicyness = spicyness;
-	}
-	public int getSweetness() {
-		return sweetness;
-	}
-	public void setSweetness(int sweetness) {
-		this.sweetness = sweetness;
-	}
+
 
     
     //@OneToMany(mappedBy = "products", cascade = CascadeType.REMOVE)	
@@ -95,13 +71,6 @@ public class Products {
 		this.price = price;
 	}
 
-	public String getDescription() {
-		return description;
-	}
-	public void setDescription(String description) {
-		this.description = description;
-	}
-
 	public MultipartFile[] getFiles() {
 		return files;
 	}
@@ -115,11 +84,37 @@ public class Products {
 	public void setManufacturer(String manufacturer) {
 		this.manufacturer = manufacturer;
 	}
+	public int getBbq() {
+		return bbq;
+	}
+	public void setBbq(int bbq) {
+		this.bbq = bbq;
+	}
+	public int getFruity() {
+		return fruity;
+	}
+	public void setFruity(int fruity) {
+		this.fruity = fruity;
+	}
+	public int getSpicy() {
+		return spicy;
+	}
+	public void setSpicy(int spicy) {
+		this.spicy = spicy;
+	}
+	public int getSweet() {
+		return sweet;
+	}
+	public void setSweet(int sweet) {
+		this.sweet = sweet;
+	}
 	@Override
 	public String toString() {
 		return "Products [id=" + id + ", manufacturer=" + manufacturer + ", name=" + name + ", price=" + price
-				+ ", description=" + description + ", url=" + url + ", files=" + Arrays.toString(files) + "]";
+				+ ", bbq=" + bbq + ", fruity=" + fruity + ", spicy=" + spicy + ", sweet=" + sweet + ", url=" + url
+				+ ", files=" + Arrays.toString(files) + "]";
 	}
+
 
 
 	

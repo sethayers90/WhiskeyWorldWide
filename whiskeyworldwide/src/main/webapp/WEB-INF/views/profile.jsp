@@ -86,7 +86,7 @@
 			</p></c:when>
 			<c:otherwise>
 			<c:forEach var="whiskeys" items="${allWhiskeys}">
-			<p>Here are you results</p><p>${allWhiskeys.name}</p>
+			<c:out value="${allWhiskeys.name}"/>
 			 <c:out value="${allWhiskeys.url}"/>
 			</c:forEach>
 			</c:otherwise>

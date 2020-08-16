@@ -99,33 +99,29 @@ public class AppController {
 		if(user.getQuiz() != null) {
 			for(Products i : whiskeys) {
 				//I forgot what Alex said to put here
-				if(user.getQuiz().getBbq()>3) {
-					if(i.getBbqness()>0) {
+				if(user.getQuiz().getBbq()<=5 & user.getQuiz().getBbq()>0) {
 						whiskeys1.add(i);
 					}
-				}
-				if(user.getQuiz().getFruity()>3) {
-					if(i.getFruityness()>0) {
+				
+				if(user.getQuiz().getFruity()<=5 & user.getQuiz().getBbq()>0) {
 						whiskeys1.add(i);
 					}
-				}
-				if(user.getQuiz().getSweet()>3) {
-					if(i.getSweetness()>0) {
+				
+				if(user.getQuiz().getSweet()<=5 & user.getQuiz().getBbq()>0) {
 						whiskeys1.add(i);
 					}
-				}
-				if(user.getQuiz().getSpicy()>3) {
-					if(i.getSpicyness()>0) {
+				
+				if(user.getQuiz().getSpicy()<=5 & user.getQuiz().getBbq()>0 ) {
 						whiskeys1.add(i);
 					}
-				}
+				
 				
 				
 			}
 		}
 			//model.addAttribute("message", whiskeys1);
 			//System.out.println(whiskeys1.size());
-			model.addAttribute("allWhiskeys", whiskeys);
+			model.addAttribute("allWhiskeys", whiskeys1);
 		
 		
 		return "profile";

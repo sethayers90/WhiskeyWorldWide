@@ -96,9 +96,9 @@
 						placeholder="29.99" path="price" />
 				</div>
 				<div class="form-group">
-					<label for="bbqness">BBQness(yes that's a word)</label>
+					<label for="bbq">BBQness(yes that's a word)</label>
 					
-					<form:select class="form-control" id="bbqness" path="bbqness" >
+					<form:select class="form-control" id="bbq" path="bbq" >
 						<option>5</option>
 						<option>4</option>
 						<option>3</option>
@@ -107,9 +107,9 @@
 					</form:select>
 				</div>
 				<div class="form-group">
-					<label for="fruityness">Fruityness</label>
+					<label for="fruity">Fruityness</label>
 				
-					<form:select class="form-control" id="fruityness" path="fruityness">
+					<form:select class="form-control" id="fruity" path="fruity">
 						<option>5</option>
 						<option>4</option>
 						<option>3</option>
@@ -120,7 +120,7 @@
 				<div class="form-group">
 					<label for="spicyness">Spicyness</label>
 	
-					<form:select class="form-control" id="spicyness" path="spicyness">
+					<form:select class="form-control" id="spicy" path="spicy">
 						<option>5</option>
 						<option>4</option>
 						<option>3</option>
@@ -131,7 +131,7 @@
 				</div>
 				<div class="form-group">
 					<label for="sweetness">Sweetness</label>
-					<form:select class="form-control" id="sweetness" path="sweetness">
+					<form:select class="form-control" id="sweet" path="sweet">
 						<option>5</option>
 						<option>4</option>
 						<option>3</option>
